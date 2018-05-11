@@ -48,5 +48,15 @@ public class sand extends World
         addObject(aligator,225,87);
         aligator aligator2 = new aligator();
         addObject(aligator2,438,311);
+        aligator.setLocation(95,37);
+        aligator2.setLocation(499,357);
+        cherie cherie9 = new cherie();
+        addObject(cherie9,525,138);
+        cherie cherie10 = new cherie();
+        addObject(cherie10,428,211);
+        cherie cherie11 = new cherie();
+        addObject(cherie11,515,270);
+        cherie cherie12 = new cherie();
+        addObject(cherie12,484,77);
     }
 }
