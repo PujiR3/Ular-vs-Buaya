@@ -24,7 +24,6 @@ public class aligator extends Actor
     {
         if(isTouching(ular.class))
         removeTouching(ular.class);
-        getWorld().showText("You lose",300,200);
     }    
 }
 
