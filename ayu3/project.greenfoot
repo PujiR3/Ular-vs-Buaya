@@ -35,9 +35,21 @@ dependency7.type=UsesDependency
 dependency8.from=ular
 dependency8.to=cherie
 dependency8.type=UsesDependency
+<<<<<<< HEAD
 editor.fx.0.height=738
 editor.fx.0.width=816
 editor.fx.0.x=275
+=======
+<<<<<<< HEAD
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+=======
+editor.fx.0.height=744
+editor.fx.0.width=647
+editor.fx.0.x=762
+>>>>>>> 000487d4e5106e98fa9a8fde0f037c4ad966ffc5
+>>>>>>> 73e8bb1da3d6492efb0af0eed559c6f1976e066d
 editor.fx.0.y=0
 mainWindow.height=600
 mainWindow.width=850
