@@ -48,7 +48,6 @@ public class sand extends World
         addObject(aligator,225,87);
         aligator aligator2 = new aligator();
         addObject(aligator2,438,311);
-<<<<<<< HEAD
         cherie cherie9 = new cherie();
         addObject(cherie9,414,213);
         cherie cherie10 = new cherie();
@@ -61,17 +60,9 @@ public class sand extends World
         addObject(cherie13,467,75);
         aligator2.setLocation(455,284);
         aligator.setLocation(117,70);
-=======
         aligator.setLocation(95,37);
         aligator2.setLocation(499,357);
-        cherie cherie9 = new cherie();
-        addObject(cherie9,525,138);
-        cherie cherie10 = new cherie();
-        addObject(cherie10,428,211);
-        cherie cherie11 = new cherie();
-        addObject(cherie11,515,270);
-        cherie cherie12 = new cherie();
         addObject(cherie12,484,77);
->>>>>>> 000487d4e5106e98fa9a8fde0f037c4ad966ffc5
+        aligator2.setLocation(495,270);
     }
 }
