@@ -1,7 +1,7 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
->>>>>>>=000487d4e5106e98fa9a8fde0f037c4ad966ffc5
+>>>>>>>=323c098b672ce70a381badd7809af6f3c5e967ed
 class.MyWorld.image=Capture1.PNG
 class.MyWorld.superclass=greenfoot.World
 class.Score.superclass=greenfoot.Actor
