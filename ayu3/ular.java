@@ -8,6 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class ular extends Actor
 {
+   
     /**
      * Act - do whatever the ular wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
@@ -20,6 +21,10 @@ public class ular extends Actor
           turn(-5);
           if(Greenfoot.isKeyDown("right"))
           turn(5);
+          if(Greenfoot.isKeyDown("up"))
+          turn(5);
+          if(Greenfoot.isKeyDown("down"))
+          turn(-5);
           eatcherie();
         }
     public void eatcherie()
@@ -27,4 +32,5 @@ public class ular extends Actor
         if(isTouching(cherie.class))
         removeTouching(cherie.class);
     }    
+    
 }
