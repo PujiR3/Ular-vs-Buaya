@@ -24,7 +24,6 @@ public class ular extends Actor
           turn(-5);
           if(Greenfoot.isKeyDown("down"))
           turn(5);
-          eatcherie();
         }
     public void eatcherie()
     {
