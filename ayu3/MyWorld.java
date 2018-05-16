@@ -28,5 +28,6 @@ public class MyWorld extends World
     {
         start start = new start();
         addObject(start,155,153);
+        start.setLocation(124,247);
     }
 }

@@ -7,11 +7,11 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo
  */
 public class ular extends Actor
 {
-   private int score = +1 ;
     /**
      * Act - do whatever the ular wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
+    int skor=0;
     public void act() 
     {
         // Add your action code here.
@@ -24,16 +24,18 @@ public class ular extends Actor
           turn(5);
           if(Greenfoot.isKeyDown("down"))
           turn(-5);
-          if(Greenfoot.isKeyDown("down"))
-          turn(5);
           eatcherie();
+         
 
         }
     public void eatcherie()
     {
-        if(isTouching(cherie.class))
+        if(isTouching(cherie.class)){
+            skor++;
+            getWorld().showText("skor = "+skor, 300,50);
         removeTouching(cherie.class);
-        getWorld().showText("Score" + score,100,30);
+    }
+    
     }    
     
 }
