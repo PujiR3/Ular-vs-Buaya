@@ -18,17 +18,17 @@ public class ular extends Actor
         move(4);
           if(Greenfoot.isKeyDown("left"))
           turn(-5);
-          if(Greenfoot.isKeyDown("right"))
+          if(Greenfoot.isKeyDown("Right"))
           turn(5);
-          if(Greenfoot.isKeyDown("up"))
+          if(Greenfoot.isKeyDown("Up"))
           turn(5);
-          if(Greenfoot.isKeyDown("down"))
+          if(Greenfoot.isKeyDown("Down"))
           turn(-5);
-          eatcherie();
+          makancherie();
          
 
         }
-    public void eatcherie()
+    public void makancherie()
     {
         if(isTouching(cherie.class)){
             skor++;

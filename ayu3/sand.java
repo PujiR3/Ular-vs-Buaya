@@ -44,9 +44,9 @@ public class sand extends World
         addObject(cherie7,370,140);
         cherie cherie8 = new cherie();
         addObject(cherie8,383,70);
-        aligator aligator = new aligator();
-        addObject(aligator,225,87);
-        aligator aligator2 = new aligator();
+        Buaya Buaya = new Buaya();
+        addObject(Buaya,225,87);
+        Buaya Buaya2 = new Buaya();
         cherie cherie10 = new cherie();
         addObject(cherie10,166,156);
         cherie cherie11 = new cherie();
@@ -55,17 +55,7 @@ public class sand extends World
         addObject(cherie12,478,155);
         cherie cherie13 = new cherie();
         addObject(cherie13,467,75);
-        aligator2.setLocation(455,284);
 
-        aligator.setLocation(95,37);
-        aligator2.setLocation(499,357);
-        addObject(cherie12,484,77);
-
-        aligator.setLocation(95,37);
-        aligator2.setLocation(499,357);
-        addObject(cherie12,484,77);
-        aligator2.setLocation(495,270);
-        addObject(aligator2,465,238);
         cherie4.setLocation(41,121);
         cherie2.setLocation(243,131);
         cherie3.setLocation(248,207);
@@ -84,10 +74,6 @@ public class sand extends World
         cherie4.setLocation(144,141);
         cherie13.setLocation(426,189);
         cherie13.setLocation(404,188);
-        aligator.setLocation(458,356);
-        aligator2.setLocation(465,238);
-        aligator2.setLocation(465,238);
-        aligator2.setLocation(404,32);
         cherie4.setLocation(135,124);
         cherie14.setLocation(132,202);
         cherie2.setLocation(200,122);
@@ -104,6 +90,15 @@ public class sand extends World
         cherie5.setLocation(513,254);
         cherie.setLocation(336,256);
         cherie14.setLocation(192,255);
+
+        Buaya.setLocation(219,59);
+        Buaya buaya2 = new Buaya();
+        addObject(buaya2,485,348);
+        cherie15 = new cherie();
+        addObject(cherie15,200,347);
+        cherie cherie16 = new cherie();
+        addObject(cherie16,319,349);
+        cherie cherie17 = new cherie();
+        addObject(cherie17,429,277);
     }
 }
-;
